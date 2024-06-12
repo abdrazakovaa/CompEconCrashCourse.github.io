@@ -195,7 +195,7 @@ run_simulation(['S', 'S', 'I1'], 20170217, 10, 0.4, 3)
 
 
 #%%
-def calc_avg_num_newly_infected(city, seed, max_num_days, rate, c, num_trials)
+def calc_avg_num_newly_infected(city, seed, max_num_days, rate, c, num_trials):
     '''
     computes the average number of newly infected people over num_trials trials for a given city, 
     infection rate, and number of days contagious.
